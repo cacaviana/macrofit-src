@@ -49,6 +49,7 @@ declare module '$env/static/private' {
 	export const DriverData: string;
 	export const EDITOR: string;
 	export const GIT_ASKPASS: string;
+	export const GIT_PAGER: string;
 	export const HOME: string;
 	export const HOMEDRIVE: string;
 	export const HOMEPATH: string;
@@ -165,6 +166,7 @@ declare module '$env/dynamic/private' {
 		DriverData: string;
 		EDITOR: string;
 		GIT_ASKPASS: string;
+		GIT_PAGER: string;
 		HOME: string;
 		HOMEDRIVE: string;
 		HOMEPATH: string;
