@@ -70,7 +70,7 @@
       
       <!-- Desktop Menu -->
       <div class="hidden md:flex items-center space-x-4">
-        {#each menuItems.slice(0, 6) as item}
+        {#each menuItems as item}
           <button
             on:click={() => navigateTo(item.path)}
             class="px-3 py-2 rounded-md text-sm font-medium transition-colors
