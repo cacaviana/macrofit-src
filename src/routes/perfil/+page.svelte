@@ -11,7 +11,7 @@
 
   // Estados da página
   let user = {
-    name: 'Usuário Demo',
+    name: 'Usuário IDemo',
     email: 'usuario@macrofit.com',
     currentWeight: 70,
     targetWeight: 65,
